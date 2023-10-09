@@ -3,7 +3,7 @@
     @Auteur : CELINI Alvin
 
     @Date-de-création : 25/09/2023
-    @Date-de-modification : 07/09/2023
+    @Date-de-modification : 09/10/2023
     @Date-de-publication : -/-/2023
 
     @description : Page de connexion à un compte utilisateur.
@@ -16,21 +16,26 @@
         <title>SportTrack - Connexion</title>
         <!-- Les balises meta fournissent des informations supplémentaires sur la page -->
         <meta charset="UTF-8">
+        <!-- Balise meta pour la catégorie de la page -->
         <meta name="Category" content="Sport, Performance athlétique, Analyse de données, Application de fitness, Application sportive">
+        <!-- Balise meta pour les mots-clés -->
         <meta name="keywords" content="SportTrack, Analyse de performance sportive, Gestion de l'entraînement, Statistiques,
         Entraînement, Sport, Suivi d'activités sportives, Amélioration des performances, Application sportive">
+        <!-- Balise meta pour les auteurs -->
         <meta name="author" content="Clément Dionne, Alvin Celini"/>
+        <!-- Balise meta pour la description de la page -->
         <meta name="description" content="SportTrack est une application d'analyse de données sportives
          avancée qui vous permet de suivre votre performance athlétique et d'améliorer vos statistiques 
          d'entraînement. Optimisez votre expérience sportive grâce à nos fonctionnalités de suivi de performance complètes.">
         <!-- L'icône de la page affichée dans l'onglet du navigateur -->
         <link rel="icon" type="image/x-icon" href="Assets/Img/icons8-track-and-field-skin-type-3-100.png">
-        <!-- Lien vers la feuille de style CSS pour la mise en page -->
+        <!-- Lien vers les feuilles de style CSS pour la mise en page -->
         <link id="lightCSS" rel="stylesheet" type="text/css" href="Assets/Css/StyleLight.css" />
         <link id="darkCSS" rel="stylesheet" type="text/css" href="Assets/Css/Style.css"/>
+        <!-- Lien vers un fichier JavaScript pour la gestion du mode sombre et clair -->
         <script src="Assets/Js/CssMod.js"></script>
         <!-- Le titre de la page avec un lien vers la page d'accueil et le logo-->
-        <h1><a href="index.html"><img src="Assets/Img/icons8-track-and-field-skin-type-3-100.png" alt="" width="90" height="90"></a>SportTrack - Connexion</h1>
+        <h1><a href="index.html"><img src="Assets/Img/icons8-track-and-field-skin-type-3-100.png" alt="" width="90" height="90"></a>SportTrack - Hub</h1>
         <!-- Boutons de navigation en haut de la page -->
         <div class="buttonHeader">
             <button class="button" onclick="window.location.href='inscription.html';">Inscription</button>
@@ -42,9 +47,9 @@
     <body>
         <h2>Connexion</h2>
         <!-- Formulaire de connexion avec des inputs -->
-        <form action="" method="" class="centre">
-            <h3>E-mail<input type="email" id="email" /></h3>
-            <h3>Mot de passe<input type="password" id="mdp" name="user_name" /></h3>
+        <form class="centre">
+            <h3>E-mail<input type="email" id="email" required/></h3>
+            <h3>Mot de passe<input type="password" id="mdp" name="user_name" required/></h3>
             <input type="submit" class="button" onclick="window.location.href='compte.html';">
         </form>
         <br><br><br>
@@ -54,16 +59,17 @@
         <br><br><br>
         <h2>Suivez-nous !</h2>
         <!-- Liens vers les réseaux du site-->
-        <a class="FollowsButtons" target="_blank" title="SportTrack - YouTube" href=""><img src="Assets/Img/youtube.png" alt="" width="75", height="75"></a>
-        <a class="FollowsButtons" target="_blank" title="SportTrack - Discord" href=""><img src="Assets/Img/discord.png" alt="" width="75", height="75"></a>
-        <a class="FollowsButtons" target="_blank" title="SportTrack - Facebook" href=""><img src="Assets/Img/facebook.png" alt="" width="75", height="75"></a>
-        <a class="FollowsButtons" target="_blank" title="SportTrack - GitHub" href=""><img src="Assets/Img/github.png" alt="" width="75", height="75"></a>
-        <p>© Images par <a href="https://icons8.fr" target="_blank">icones8.fr</a> | Free for personal and commercial use under the CCA 3.0 license : <a href="https://icones8.fr/license" target="_blank">icones8.fr/license</a>
-            <br>
-            <p>© <a href="mention.html" target="_blank">crédits et mentions légale</a></p>
-            <br><p>© Fait par Clément Dionne et Alvin Celini (D)</p>
-            <br>
-        </p>
+        <a class="FollowsButtons" target="_blank" title="SportTrack - YouTube" href=""><img src="Assets/Img/youtube.png" alt="" width="75" height="75"></a>
+        <a class="FollowsButtons" target="_blank" title="SportTrack - Discord" href=""><img src="Assets/Img/discord.png" alt="" width="75" height="75"></a>
+        <a class="FollowsButtons" target="_blank" title="SportTrack - Facebook" href=""><img src="Assets/Img/facebook.png" alt="" width="75" height="75"></a>
+        <a class="FollowsButtons" target="_blank" title="SportTrack - GitHub" href=""><img src="Assets/Img/github.png" alt="" width="75" height="75"></a>
+        <!-- Licences et crédits -->
+        <p>© Images par <a href="https://icons8.fr" target="_blank">icones8.fr</a> | Free for personal and commercial use under the CCA 3.0 license : <a href="https://icones8.fr/license" target="_blank">icones8.fr/license</a></p>
+        <br>
+        <p>© <a href="mention.html" target="_blank">crédits et mentions légale</a></p>
+        <br><p>© Fait par Clément Dionne et Alvin Celini (D)</p>
+        <br>
+        <!-- Boutons pour activer le mode clair et le mode sombre -->
         <button class="button" id="light-mode-button">Light Mode</button>
         <button class="button" id="dark-mode-button">Dark Mode</button>
     </footer>
