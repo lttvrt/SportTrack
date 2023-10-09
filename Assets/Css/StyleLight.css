@@ -42,7 +42,7 @@
 /* Styles pour la section de pied de page */
 footer {
     width: 100%;
-    background: linear-gradient(rgb(34, 34, 34)20%, rgb(60, 60, 60)90%, rgb(34, 34, 34)100%) no-repeat;
+    background: linear-gradient(rgb(227, 227, 227)20%, rgb(199, 199, 199)90%, rgb(227, 227, 227)100%) no-repeat;
     position: absolute;
     left: 0;
     text-align: center;
@@ -64,13 +64,13 @@ a {
 html {
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:rgb(34, 34, 34);
+    background-color:rgb(227, 227, 227);
 }
 
 /* Styles général pour les boutons */
 .button {
-    background-color: #005e0d;
-    color: rgb(228, 228, 228);
+    background-color: #00275e;
+    color: rgb(197, 197, 197);
     text-align: center;
     font-size: 28px;
     font-family: Jost_Classic;
@@ -110,14 +110,14 @@ input {
 
 /* Styles pour les états de survol des boutons */
 .button:hover {
-    background-color: #2bff01;
+    background-color: #004bb4;
     color: rgb(20, 20, 20);
     transition: 0.2s;
 }
 
 /* Styles pour les états de clic des boutons */
 .button:active {
-    background-color: #00590c;
+    background-color: #001e48;
     color: rgb(169, 169, 169);
     transition: 0.1s;
 }
@@ -128,11 +128,11 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background-color: #959595;
+    background-color: #383838;
 }
 
 html::-webkit-scrollbar-thumb {
-    background: #00095f;
+    background: #0011ad;
     border-radius: 10px;
 }
 
@@ -140,7 +140,7 @@ html::-webkit-scrollbar-thumb {
 p {
     font-family: Jost_Classic;
     font-size: 20px;
-    color: rgb(200, 200, 200);
+    color: rgb(40, 40, 40);
     margin : 5px 5px 5px 8px;
     text-align: center;
 }
@@ -150,7 +150,7 @@ h1 {
     font-family: Jost_Classic;
     font-size: 50px;
     margin-left: 10%;
-    color: rgb(156, 156, 156);
+    color: rgb(77, 77, 77);
     
 }
 
@@ -164,7 +164,7 @@ h2 {
     font-family: Jost_Strong;
     font-size: 50px;
     text-align: center;
-    color: rgb(0, 175, 15);
+    color: rgb(176, 26, 26);
 }
 
 /* Styles pour les titres de niveau 3 et pour les balises <label> */
@@ -172,7 +172,7 @@ h3, label {
     font-family: Jost_Classic;
     font-size: 35px;
     text-align: center;
-    color: rgb(0, 146, 12);
+    color: rgb(147, 33, 33);
 }
 
 /* Styles pour les éléments de formulaire <fieldset> */

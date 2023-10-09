@@ -26,7 +26,9 @@
         <!-- L'icône de la page affichée dans l'onglet du navigateur -->
         <link rel="icon" type="image/x-icon" href="Assets/Img/icons8-track-and-field-skin-type-3-100.png">
         <!-- Lien vers la feuille de style CSS pour la mise en page -->
-        <link rel="stylesheet" type="text/css" href="Assets/Css/Style.css"/>
+        <link id="lightCSS" rel="stylesheet" type="text/css" href="Assets/Css/StyleLight.css" />
+        <link id="darkCSS" rel="stylesheet" type="text/css" href="Assets/Css/Style.css"/>
+        <script src="Assets/Js/CssMod.js"></script>
         <!-- Le titre de la page avec un lien vers la page d'accueil et le logo-->
         <h1><a href="index.html"><img src="Assets/Img/icons8-track-and-field-skin-type-3-100.png" alt="" width="90" height="90"></a>SportTrack - Compte</h1>
         <!-- Boutons de navigation en haut de la page -->
@@ -61,5 +63,7 @@
             <br><p>© Fait par Clément Dionne et Alvin Celini (D)</p>
             <br>
         </p>
+        <button class="button" id="light-mode-button">Light Mode</button>
+        <button class="button" id="dark-mode-button">Dark Mode</button>
     </footer>
 </html>
