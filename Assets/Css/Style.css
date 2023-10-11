@@ -3,8 +3,8 @@
     @Auteur : CELINI Alvin
 
     @Date-de-création : 25/09/2023
-    @Date-de-modification : 09/10/2023
-    @Date-de-publication : -/-/2023
+    @Date-de-modification : 11/10/2023
+    @Date-de-publication : 11/10/2023
 
     @description : Feuille de style css pour l'interface graphique générale du site en mode sombre par défaut.
 */
@@ -18,6 +18,23 @@
 @font-face {
     font-family: Jost_Strong;
     src: local("Jost_Strong"), url('../Fonts/Jost-Black.ttf');
+}
+
+/* Arrière plan du cors de page */
+body {
+    background-image: url('../Img/backgroundDark.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image de fond */
+    background-size: cover; /* Ajuste l'image de fond pour couvrir tout l'écran */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-attachment: fixed; /* Fixe l'image de fond lors du défilement */
+    border-radius: 2%;
+}
+
+/* Arrière plan des zones de textes */
+.textBox {
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond semi-transparente */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px; /* Espace intérieur de la boîte */
+    margin: 20px; /* Marge autour de la boîte */
 }
 
 /**** Styles pour les boutons d'en-tête, le centrage, l'alignement ****/
@@ -150,8 +167,7 @@ h1 {
     font-family: Jost_Classic;
     font-size: 50px;
     margin-left: 10%;
-    color: rgb(156, 156, 156);
-    
+    color: rgb(90, 89, 89);
 }
 
 /* Styles pour l'allignement des titres de niveau 1 avec image */

@@ -3,8 +3,8 @@
     @Auteur : CELINI Alvin
 
     @Date-de-création : 07/10/2023
-    @Date-de-modification : 09/10/2023
-    @Date-de-publication : -/-/2023
+    @Date-de-modification : 07/10/2023
+    @Date-de-publication : 11/10/2023
 
     @description : Script JavaScript pour gérer le mode claire et sombre du site.
 */
